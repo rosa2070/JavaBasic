@@ -4,6 +4,8 @@ public class ConditionEx02 {
         // switch ~ case
         // / (나눗셈 이용)
         int score = 76;
+        // 76 / 10 = 7
+        // 86 / 10 = 8
         switch (score/10) {
             case 9:
                 System.out.println("A 학점");
