@@ -1,3 +1,4 @@
+package back1;
 public class DoubleEx01 {
     public static void main(String[] args) {
         // int i = 2.5;

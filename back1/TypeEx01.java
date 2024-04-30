@@ -1,3 +1,4 @@
+package back1;
 public class TypeEx01 {
     public static void main(String[] args) {
         // 형변환

@@ -1,3 +1,4 @@
+package back1;
 public class ConditionEx01 {
     public static void main(String[] args) {
         int score = 75;

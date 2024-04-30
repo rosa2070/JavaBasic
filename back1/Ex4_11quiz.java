@@ -1,3 +1,4 @@
+package back1;
 public class Ex4_11quiz {
     public static void main(String[] args) {
         // 방법 1

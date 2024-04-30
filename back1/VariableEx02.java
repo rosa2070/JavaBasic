@@ -1,3 +1,4 @@
+package back1;
 public class VariableEx02 {
    public static void main(String[] args) {
       int vNum = 10;

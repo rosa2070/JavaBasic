@@ -1,3 +1,4 @@
+package back1;
 import java.util.Scanner;
 
 public class Ex4_6 {
