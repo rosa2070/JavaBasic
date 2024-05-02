@@ -1,26 +1,33 @@
 class Variable {
-    // 인스턴스 멤버변수(필드)
-    // 자동 초기화
-    // String - 객체 - null
-    String data1;
-    // int - 0
-    int data2;
-    // char - ''
-    char data3;
-
-    void printVariable() {
-        System.out.println(data1);
-        System.out.println(data2);
-        System.out.println(data3);
-
-        // 지역변수 초기화해야 사용가능
-        int data4;
-        // System.out.println(data4);
-    }
+    // 인스턴스 멤버필드 / 클래스 멤버필드
+    String instanceVariable;
+    static String classVariable;
 }
+
 public class VariableEx01 {
     public static void main(String[] args) {
-        Variable v = new Variable();
-        v.printVariable();        
+
+        Variable v1 = new Variable();
+        Variable v2 = new Variable();
+    
+        v1.instanceVariable = "10";
+        v2.instanceVariable = "20";
+
+        System.out.println(v1.instanceVariable);
+        System.out.println(v2.instanceVariable);
+
+        // v1, v2 간의 데이터 공유
+        v1.classVariable = "10";
+        System.out.println(v1.classVariable);
+        System.out.println(v2.classVariable);
+
+        v2.classVariable = "20";
+        System.out.println(v1.classVariable);
+        System.out.println(v2.classVariable);
+
+        System.out.println(Variable.classVariable);
+
+        
     }
+
 }
